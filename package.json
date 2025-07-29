@@ -1,0 +1,43 @@
+{
+  "name": "kanaibiz-corporate-website",
+  "version": "1.0.0",
+  "description": "Modern corporate landing page for KanaiBiz with responsive design and smooth animations",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx live-server --port=3000 --open=index.html",
+    "build": "echo 'No build process required for static site'",
+    "lint:html": "npx html-validate index.html",
+    "lint:css": "npx stylelint 'css/**/*.css'",
+    "format": "npx prettier --write '**/*.{html,css,js,md}'"
+  },
+  "keywords": [
+    "corporate",
+    "landing-page",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "website",
+    "business"
+  ],
+  "author": "KanaiBiz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masakikanai-wq/sample-02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/masakikanai-wq/sample-02/issues"
+  },
+  "homepage": "https://github.com/masakikanai-wq/sample-02#readme",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
